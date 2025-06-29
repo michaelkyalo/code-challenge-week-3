@@ -46,4 +46,20 @@ body {
 #search-section span:hover {
     background-color: #e24c59;
 }
+#All-Nganyas{
+padding: 10px;
+flex-wrap: wrap;
+}
+.moxie,
+.matrix {
+    text-align: left;
+    margin-left: 0;
+    padding-left: 20px; /* optional for spacing */
+}
+.A-Nganya {
+    margin-bottom: 40px; /* Adds vertical space between each section */
+    padding: 20px; /* Optional: adds inner spacing */
+    border: 1px solid #ccc; /* Optional: for visual separation */
+    border-radius: 8px;     /* Optional: rounded corners */
+}
 
