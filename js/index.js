@@ -1,25 +1,35 @@
-let page= 1 ;
+document.addEventListener("DOMContentLoaded", function () {
+  const searchInput = document.getElementById('nganya-search');
+  const nganyaSections = document.querySelectorAll('.A-Nganya');
 
-let paginationEl=document.getElementById("pagination");
+  window.toggleMoreInfo = function (button) {
+    const section = button.closest('.A-Nganya');
+    const infoDiv = section.querySelector('.moreInfo');
 
-let paginationBtns = paginationEl.getElementsByTagName("button");
-console.log("paginationBtns")
-paginationBtns[0].addEventListener("click",goBack);
-paginationBtns[1].addEventListener("click",goFoward);
-function goBack(){
-    console.log("Back")
-    if(page=1){
-    return;
-    }
-    page=page -1;
-    updatePage();
-}
-function goFoward(){
-console.log("goFoward")
-page = page+1
-}
-function updatePage(){
-    let span= paginationEl.getElementsByTagName("span")[0];
-    span.innerText = page;
-}
-<img src="../images/If you see a matatu ,you know it’s time for adventure.jpeg" alt="Matatu image"></img>
+    if (!infoDiv) return;
+
+    const isVisible = infoDiv.style.display === "block";
+    infoDiv.style.display = isVisible ? "none" : "block";
+    button.textContent = isVisible ? "Click to know more" : "Click to show less";
+  };
+
+  
+  searchInput.addEventListener('input', function () {
+    const query = this.value.toLowerCase();
+
+    nganyaSections.forEach(section => {
+      const heading = section.querySelector('h1,h2,h3,h4,h5,h6');
+      const title = heading ? heading.textContent.toLowerCase() : '';
+      const description = section.querySelector('.moreInfo')?.textContent.toLowerCase() || '';
+      const classes = section.className.toLowerCase();
+
+      const matches = title.includes(query) || description.includes(query) || classes.includes(query);
+
+      section.style.display = matches ? 'block' : 'none';
+    });
+  });
+});
+
+
+
+
