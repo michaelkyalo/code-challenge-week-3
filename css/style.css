@@ -2,10 +2,11 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  background-color: aquamarine;
 }
 #top-bar {
   background-color: #333;
-  color: white;
+  color: rgb(212, 18, 154);
   padding: 15px 20px;
   text-align: center;
   font-size: 1.2em;
@@ -15,8 +16,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #f3f3f3;
-  border-bottom: 1px solid #ddd;
+  background-color: #dd11f0;
+  border-bottom: 1px solid #e210a3;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -57,7 +58,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #fff;
+  background-color: #747171;
 }
 .A-Nganya img {
   width: 100%;
