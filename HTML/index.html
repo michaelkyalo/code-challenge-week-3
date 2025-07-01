@@ -7,40 +7,47 @@
     <title>MATWANA CULTURE</title>
 </head>
 <body> 
-   <div id="top-bar">
-        <span>know more about nganyas</span>
-    <div id="search-section">
-  <input id="nganya-search" type="text" placeholder="Search Nganya" />
-  <span>Search</span>
+<div id="top-bar">
+  <span class="heading">Know more about nganyas</span>
+  <div id="search-section">
+    <input
+      type="text"
+      id="searchBox"
+      placeholder="Search nganya by name..."
+      onkeyup="searchNganya()" />
+    <span class="label">Search</span>
+  </div>
 </div>
   <meta name="description" content="Explore top Rongai Nganyas like Moxie, Matrix, Opposite, Uppercut, and John Wick.">
     <div id="container">
   <div id="nganya-wrapper">
+  <body>
   <section class="A-Nganya dice">
     <h1>DICE</h1>
     <img src="../images/Dice 🎲.jpeg" alt="Dice image" />
-   <button onclick="toggleMoreInfo(this)">Click to know more</button>
+    <button onclick="toggleMoreInfo(this)">Click to know more</button>
     <div class="moreInfo" style="display: none;">
-      <p><strong>Dice</strong> is a trendy nganya known for its colorful neon lighting, booming sound system and a polite crew it also comes with stunning interior which features a smoking machine</p>
-  </div>
-    </section>
+      <p>Dice is a trendy nganya known for its colorful neon lighting, booming sound system, and a polite crew. It also comes with a stunning interior featuring a smoke machine.</p>
+    </div>
+  </section>
   <section class="A-Nganya moxie">
     <h2>MOXIE</h2>
     <img src="../images/Moxie 🔥.jpeg" alt="Moxie Image" />
     <p>Rongai route</p>
     <button onclick="toggleMoreInfo(this)">Click to know more</button>
     <div class="moreInfo" style="display: none;">
-      <p><strong>Moxie</strong> is one of the fastest nganyas on the Rongai route with one of the best makes in kenya and stly themed for kenyan badies and also features many screens and neon ligthts and also volvo side mirrors</p>
-  </div>
-    </section>
+      <p><strong>Moxie</strong> is one of the fastest nganyas on the Rongai route. It is stylishly themed for Kenyan baddies and features many screens, neon lights, and Volvo side mirrors.</p>
+    </div>
+  </section>
+
   <section class="A-Nganya matrix">
-    <h3>>MATRIX</h3>
+    <h3>MATRIX</h3>
     <img src="../images/If you see a matatu ,you know it’s time for adventure.jpeg" alt="Matrix Image" />
     <p>Rongai route</p>
     <button onclick="toggleMoreInfo(this)">Click to know more</button>
     <div class="moreInfo" style="display: none;">
-      <p><strong>Matrix</strong> is a high-speed nganya with bold styling and a theme of day today challenges with one of the best dressing drivers and polite one also feature 32inch screen on everyseat</p>
-</div>
+      <p><strong>Matrix</strong> is a high-speed nganya with bold styling. It has a theme based on daily life struggles and features 32-inch screens at every seat.</p>
+    </div>
   </section>
 
   <section class="A-Nganya opposite">
@@ -48,8 +55,9 @@
     <img src="../images/Opposite 🔥.jpeg" alt="Opposite Image" />
     <p>Rongai route</p>
     <button onclick="toggleMoreInfo(this)">Click to know more</button>
-    <div class="moreInfo" style="display: none;"></div>
+    <div class="moreInfo" style="display: none;">
       <p><strong>Opposite</strong> is a high-speed nganya with bold styling...</p>
+    </div>
   </section>
 
   <section class="A-Nganya uppercut">
@@ -58,7 +66,7 @@
     <p>Rongai route</p>
     <button onclick="toggleMoreInfo(this)">Click to know more</button>
     <div class="moreInfo" style="display: none;">
-      <p><strong>Uppercut</strong> isboard services like playstation and fyam lights and the most reliable wifi services which is fast for clients</p>
+      <p><strong>Uppercut</strong> offers services like PlayStation, fyam lights, and fast, reliable WiFi for passengers.</p>
     </div>
   </section>
 
@@ -68,10 +76,8 @@
     <p>Rongai route</p>
     <button onclick="toggleMoreInfo(this)">Click to know more</button>
     <div class="moreInfo" style="display: none;">
-      <p><strong>John Wick</strong> is a movie themed nganya with the most expensive sound system worth 3million and an onboard dj setup also features buckect seats and very clean and commited divers also features on board playstation and redreshment drinks</p>
+      <p><strong>John Wick</strong> is a movie-themed nganya with a sound system worth 3 million. It features onboard DJ setup, bucket seats, PlayStation, and refreshments.</p>
     </div>
   </section>
-</div>
   <script src="../js/index.js"></script>
 </body>
-</html>

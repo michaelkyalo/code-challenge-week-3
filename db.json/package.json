@@ -1,0 +1,45 @@
+[
+  {
+    "name": "DICE",
+    "route": "Rongai route",
+    "image": "../images/Dice 🎲.jpeg",
+    "alt": "Dice image",
+    "description": "Dice is a trendy nganya known for its colorful neon lighting, booming sound system and a polite crew. It also comes with a stunning interior which features a smoke machine."
+  },
+  {
+    "name": "MOXIE",
+    "route": "Rongai route",
+    "image": "../images/Moxie 🔥.jpeg",
+    "alt": "Moxie Image",
+    "description": "Moxie is one of the fastest nganyas on the Rongai route with one of the best makes in Kenya. It's stylishly themed for Kenyan baddies, and features many screens, neon lights, and Volvo side mirrors."
+  },
+  {
+    "name": "MATRIX",
+    "route": "Rongai route",
+    "image": "../images/If you see a matatu ,you know it’s time for adventure.jpeg",
+    "alt": "Matrix Image",
+    "description": "Matrix is a high-speed nganya with bold styling and a theme of day-to-day challenges. It features one of the best-dressed drivers, 32-inch screens on every seat, and a polite crew."
+  },
+  {
+    "name": "OPPOSITE",
+    "route": "Rongai route",
+    "image": "../images/Opposite 🔥.jpeg",
+    "alt": "Opposite Image",
+    "description": "Opposite is a high-speed nganya with bold styling..."
+  },
+  {
+    "name": "UPPERCUT",
+    "route": "Rongai route",
+    "image": "../images/6b33b08f-225d-4936-b299-e8e16a9f52c1.jpeg",
+    "alt": "Uppercut Image",
+    "description": "Uppercut offers onboard services like PlayStation, fyam lights, and the most reliable Wi-Fi services which are fast and customer-friendly."
+  },
+  {
+    "name": "JOHNWICK",
+    "route": "Rongai route",
+    "image": "../images/JOHN WICK--BABA YAGA RONGAI FINEST.jpeg",
+    "alt": "John Wick Image",
+    "description": "John Wick is a movie-themed nganya with the most expensive sound system worth 3 million. It features an onboard DJ setup, bucket seats, PlayStation, refreshments, and very clean, committed drivers."
+  }
+]
+
